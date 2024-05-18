@@ -1,0 +1,30 @@
+body {
+    background-color: #f1f1f1;
+    font-family: Arial, sans-serif;
+}
+
+.maintenance-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-height: 100%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 50px;
+    color: #0077b6;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+p {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 50px;
+    text-align: center;
+}
+

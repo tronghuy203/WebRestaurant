@@ -1,0 +1,27 @@
+{
+  "name": "baiketthuchocphan",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "alert": "^5.1.4",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "express-session": "^1.17.3",
+    "http-errors": "~1.6.3",
+    "mongoose": "^5.11.20",
+    "morgan": "~1.9.1",
+    "node-sessionstorage": "^1.0.0",
+    "nodemon": "^2.0.22",
+    "session": "^0.1.0",
+    "start": "^5.1.0"
+  },
+  "main": "app.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

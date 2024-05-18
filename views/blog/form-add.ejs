@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!-- bootstrap  -->
+    <link rel="stylesheet" href="/stylesheets/bootstrap.min.css">
+    <!-- for swiper slider  -->
+    <link rel="stylesheet" href="/stylesheets/swiper-bundle.min.css">
+  
+    <!-- fancy box  -->
+    <link rel="stylesheet" href="/stylesheets/jquery.fancybox.min.css">
+    <!-- custom css  -->
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="stylesheet" href="/stylesheets/themtt.css">
+    <link rel="stylesheet" href="/stylesheets/nhanxet.css">
+</head>
+    <title>Thêm bài viết</title>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="header-logo">
+                        
+                            <img src="/images/logo.png" width="160" height="36" alt="Logo">
+                     
+                    </div>
+                </div>
+                <div class="col-lg-10">
+                    <div class="main-navigation">
+                        <button class="menu-toggle"><span></span><span></span></button>
+                        <nav class="header-menu">
+                            <ul class="menu food-nav-menu">
+                                <li><a href="/trangchu">Home</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="/nhanxet">Comment</a></li>
+                                <li><a href="#gallery">Gallery</a></li>
+                                <li><a href="#blog">Blog</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </nav>
+                        <div class="header-right">
+                            <form action="/trangchu" class="header-search-form for-des">
+                                <input type="search" class="form-input" placeholder="Search Here...">
+                                <button type="submit">
+                                    <i class="uil uil-search"></i>
+                                </button>
+                            </form>
+                            <a href="/cart" class="header-btn header-cart">
+                                <i class="uil uil-shopping-bag"></i>
+                            </a>
+                            <ul class="menu2">    
+                                           
+                                <li><a href="javascript:void(0)" class="header-btn2"> <i class="uil uil-user-md"></i></a>
+                                    <ul>
+                                        <li><a href="/ttcn">Thông tin khách hàng</a></li>
+                                        <li><a href="">Cài đặt</a></li>
+                                        <li><a href="/">Đăng xuất</a></li>
+                                    </ul>
+                                </li>   
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <form action="/blog/add" method="POST">
+        <div class="admin__right-left">
+                <div class="itemForm">
+                    <label for="name">Nhập link ảnh:</label><br>
+                    <input type="text" id="name" placeholder="Link ảnh" class="nameProduct" name="HinhAnh">
+                    <span class="message"></span>
+                </div>
+                <div class="itemForm">
+                    <label for="name">Nhập Ngày Tháng:</label><br>
+                    <input type="text" id="name" placeholder="Ngày tháng" class="nameProduct" name="NgayThang">
+                    <span class="messageImg"></span>
+                </div>
+                <div class="itemForm">
+                    <label for="name">Tên bài viết:</label><br>
+                    <input type="text" id="name" placeholder="Tên bài viết" class="nameProduct" name="Ten">
+                    <span class="messageImg"></span>
+                </div>
+                <div class="itemForm2">
+                    <label for="discount">Nhập nội dung bài viết của bạn</label><br>
+                    <input type="text" placeholder="NoiDung" class="discount" id="discount" name="NoiDung">
+                    <span class="message"></span>
+                </div>
+
+               
+                <p><button class="moreProducts" style="--color: #28a745;" type="submit">Đăng</button></p><br>
+                <p class="linkImg"></p>
+            
+        </div>
+    </form>
+</body>
+
+</html>

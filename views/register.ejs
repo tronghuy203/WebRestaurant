@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="/stylesheets/login.css">
+  <title>Đăng Ký</title>
+</head>
+<body>
+  <form action="/register" method="post">
+    <section>
+      
+        <div class="form-box">
+            <div class="form-value">
+                <form action="">
+                    <h2>Đăng Ký</h2>
+                    <div class="inputbox">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input type="name" name="username" required>
+                        <label for="">Username</label>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input type="password" name="password" required>
+                        <label for="">Password</label>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input type="password" name="password2" required>
+                        <label for="">Nhập lại Password</label>
+                    </div>
+                    
+                    <button>Đăng Ký</button>
+                    <div class="register">
+                        <p>Đã có tài khoản <a href="/">Dăng Nhập</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+  </form>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
+

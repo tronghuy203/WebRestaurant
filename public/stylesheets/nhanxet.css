@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.admin__right{
+    position: relative;
+    width: 100%;
+}
+.admin__right h3{
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    border-bottom: 1.3px solid #b8b8b8;
+}
+.admin__right-wrapper{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+}
+.admin__right-left{
+    position: relative;
+    padding: 0px 30px;
+    margin-top: 100px;
+}
+.admin__right-left .itemForm{
+    padding: 5px 0px;
+}
+.itemForm label{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.itemForm input[type="text"]{
+    margin-top: 5px;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #b8b8b8;
+    outline: none;
+}
+.itemForm2 input[type="text"]{
+    margin-top: 5px;
+    width: 100%;
+    padding-bottom: 30px;
+    border: 1px solid #b8b8b8;
+    outline: none;
+}
+input[type="text"].error{
+    border:2px solid red;
+}
+.itemForm input[type="text"]:focus{
+    border: 2px solid var(--col-red);
+}
+.itemForm img{
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 1px solid;
+}
+.itemForm .clickImgInput, button{
+    padding: 10px 15px;
+    background: var(--color);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: #fff;
+    transition: all 0.5s;
+    cursor: pointer;
+    display: inline-block;
+}
+.itemForm .imageInput{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.itemForm .clickImgInput:active, button:active{
+    transform: scale(0.9);
+}
+.moreProducts{
+    text-align: center;
+}
+.message, .messageImg{
+    font-size: 12px;
+    color: red;
+}
+.admin__right-right table{
+    border-collapse: collapse;
+}
+.admin__right-right .table thead{
+    color: #fff;
+}
+.admin__right-right .table thead tr{
+    background: #333;
+}
+.admin__right-right .table thead tr th{
+    padding: 10px;
+}
+.admin__right-right .table tbody tr td{
+    padding: 3px;
+    text-align: center;
+}
+.admin__right-right .table tbody tr td img{
+    width: 50px;
+    height: 50px;
+}
